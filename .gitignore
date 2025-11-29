@@ -1,0 +1,28 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+# Плагины (билды)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# IDE/Build мусор
+*.VC.db
+*.VC.opendb
+*.suo
+*.sdf
+*.opensdf
+*.ipch
+*.obj
+*.pdb
+*.log
+*.cache
+*.db
+
+# Проекты IDE генерируются, не храним
+*.sln
+*.xcodeproj
+*.xcworkspace
